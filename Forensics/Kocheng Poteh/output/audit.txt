@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Feb 23 15:43:02 2021
+Invocation: foremost kochengpoteh.png 
+Output directory: /media/sf_ctf-writeups/ctf.rasyidmf/Forensics/Kocheng Poteh/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: kochengpoteh.png
+Start: Tue Feb 23 15:43:02 2021
+Length: 445 KB (456337 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     440 KB 	          0 	  (750 x 500)
+1:	00000881.png 	       4 KB 	     451340 	  (804 x 442)
+Finish: Tue Feb 23 15:43:02 2021
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Tue Feb 23 15:43:02 2021

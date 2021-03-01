@@ -1,0 +1,1 @@
+Perasaan mimin kemarin udah pintar yaa kalian bisa menjawab sains yang pertama, kali ini mimin ada soal sains #2 untuk kalian coba artikan.
