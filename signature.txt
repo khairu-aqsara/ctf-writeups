@@ -1,0 +1,1 @@
+main(i){putchar((i-1)["Jf^emo&9hiVfT"]+(i++))&&(14-i)&&main(i);} 
