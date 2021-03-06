@@ -1,8 +1,3 @@
-Mimin membuat sebuah bahasa sederhana, yang menggunakan bahasa kecil yaitu "push, up, mul, add, desc, ret, mov". Jika kalian penasaran cek nih.
-
-Download : https://mega.nz/#!wwhCULBB!94_xpQD5Zpaqm_ekL5N0V2gEFjZtbaeQ4MzfAqKnvT0
-
-```
 import random
 import string
 
@@ -101,11 +96,3 @@ while(True):
     else:
       temp = [0 for x in range(1024)]
       used = 0
-```
-
-Flag
-
-```
-CTFR{s0m3_345y_l4n9u4g3_0f_ctfr}
-```
-

@@ -18,6 +18,15 @@ with open('dot.txt', 'r') as fs:
 	print("".join([chr(x) for x in flag]))
 ```
 
+Atau
+
+```
+with open('dot.txt', 'r') as f:
+    p = [line.rstrip() for line in f][0]
+    string ="".join([chr(len(x)) for x in  p.split()])
+    print(string, end='')
+```
+
 Flag
 
 ```
