@@ -58,7 +58,7 @@ jika di konversi ke python bentuk sederhanya seperti
 def Decrypr(string, key):
 	flag = ''
 	for i in range(len(string)):
-		flag+=chr((x % i) ^ ord(param[x]))
+		flag+=chr((key % i) ^ ord(string[x]))
 	return 0
 ```
 tidak ada yang direturn dari fungsi ini, kemudian string juga tidak diketahui, cari string dengan gdb
@@ -111,18 +111,17 @@ $2 = 0x51445543
 ```bash
 gdb-peda$ x/s 0x5555555580a0
 0x5555555580a0 <flag>:  "CUDQ\177\064\063X|a>\177Sly<c!\177 _vj0jZ\177\067}Vi?bRm}$ryL4qro5f2s99dv"
-```  
+```
 
 jika dmasukan dalam fungsi Decrypt
 
 ```python
-def Decrypt():
-	enc_flag = 'CUDQ\177\064\063X|a>\177Sly<c!\177 _vj0jZ\177\067}Vi?bRm}$ryL4qro5f2s99dv'
-	for i in range(1,35):
-	    flag = ''
-	    for x in range(len(param)):
-	        flag+=chr((x % i) ^ ord(param[x]))
-	    print(f)
+param = 'CUDQ\177\064\063X|a>\177Sly<c!\177 _vj0jZ\177\067}Vi?bRm}$ryL4qro5f2s99dv'
+for i in range(1,100):
+    f = ''
+    for x in range(len(param)):
+        f+=chr((x % i) ^ ord(param[x]))
+    print(f)
 ```
 
 Flag
