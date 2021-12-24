@@ -4,7 +4,7 @@ CTF Writeups
 ## Docker Images
 ```
 docker pull wenkhairu/ctf-playground
-docker run --cap-add=SYS_PTRACE  --privileged --pid=host --name=ctf-box -d -i wenkhairu/ctf-playground
+docker run --rm -v ${PWD}:/playground --cap-add=SYS_PTRACE  --privileged --pid=host --name=ctf-box -d -i wenkhairu/ctf-playground
 docker exec -it ctf-box /bin/bash
 ```
 
